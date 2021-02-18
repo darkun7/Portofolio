@@ -1,0 +1,34 @@
+/* DISCLAIMER */
+/*
+* Style modal dan JS saya menggunakan file yang pernah saya gunakan sebelumnya pada
+* https://github.com/darkun7/darkun7.github.io/blob/master/assets/css/main.css
+*/
+.modal{
+  display: none;
+  transition: opacity 0.4s;
+  width: 100%;
+  height: 100%;
+  background-color:  rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+}
+.modal-konten{
+  width: 500px;
+  min-height: 300px;
+  padding: 10px 20px 20px 20px;
+  margin: 20px auto 80px auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+.modal-konten i{
+  float:  right;
+  margin-top: 5px;
+}
+.modal-konten i:hover{
+  color: red;
+}

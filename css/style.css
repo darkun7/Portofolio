@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ==================================== */
+/* GENERIC */
+/* ==================================== */
+* {
+   box-sizing: border-box;
+}
+:root {
+    --primer    : #05c46b;
+    --sekunder  : #ffdd59;
+    --terang    : #f2f9ff;
+    --gelap     : #485460;
+}
+html, body{
+  background: var(--terang);
+  height: 100%;
+  margin: 0px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  transition-duration: 3000ms;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+h1{margin-top: 60px;}
+h2{margin-bottom: 20px;}
+h3{margin-top: 15px;}
+p{margin-top: 5px;}
+em{
+  font-weight: 300;
+}
+img{
+  max-width: 120px;
+  display: block;
+  text-shadow: 0 0 3px #FF0000;
+}
+code{
+  background-color: #ffd5a6;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-weight: bold;
+  margin-right: 2px;
+}
+.button{
+  color: var(--sekunder);
+  background-image: linear-gradient(to right, var(--primer), var(--sekunder));
+  background-size: 150% auto;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+  text-shadow: 2px 2px var(--gelap);
+}
+.button:hover{
+  background-position: right center;
+  color: white;
+}
+
+a{color: black;text-decoration: none;}
+a:hover{color: var(--sekunder);}
+
+.center{text-align: center;}
+.top-extra{margin-top: 60px !important;}
+.margin-center{margin: 0 auto;}
+.margin-zero{margin: 0;}
+.radius{border-radius: 200px}
+.icon{font-size: 12px;}
+.shadow{text-shadow: 2px 2px var(--primer);}
+.list-romawi{list-style-type: upper-roman;}
+/* HEADER */
+/* ==================================== */
+/* NAVIGATION */
+/* ==================================== */
+header{
+  display: inline;
+  max-height: 200px;
+}
+nav{
+  background-color: var(--primer);
+  display: block;
+  padding: 1px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 5 auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 5%;
+}
+nav ul li a{
+  color: var(--sekunder);
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 5px 20px;
+  transition: all 1s;
+}
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--sekunder);
+    transition: width .3s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* MAIN */
+body{
+  display: flex;
+  flex-flow: row wrap;
+}
+body > *{
+  flex: 1 100%;
+}
+main{
+  margin: 30px 0px;
+}
+aside{
+  float: left;
+  width: 20%;
+  margin: 0 20px;
+  padding-left: 80px;
+}
+.porto,
+.experience{
+  float: right;
+  width: 70%;
+  margin: 0 1%;
+  padding-right: 80px;
+}
+
+/* PORTO */
+#porto-block{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.porto-item{
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  line-height: 150px;
+  box-shadow: 0px 5px 5px rgba(72, 84, 96, 0.2), 0 5px 5px rgba(72, 84, 96, 0.2);
+}
+.porto-item:hover {
+  transition: 0.5s;
+  box-shadow: 0px 10px 10px rgba(72, 84, 96, 0.2), 0 10px 10px rgba(72, 84, 96, 0.2);
+}
+.porto-item section{
+  height: 100%;
+}
+.porto-item:hover .shadow{
+  text-shadow: 2px 2px var(--gelap);
+}
+.porto-title{
+  line-height: 25px;
+  padding-top: 25px;
+}
+
+
+
+
+/* ==================================== */
+/* FOOTER */
+/* ==================================== */
+footer{
+    background-color: var(--gelap);
+    color: white;
+    text-align: right;
+    padding: 20px 0;
+    margin: 40px 0 0 0;
+}
+
+.block{
+  margin: 0px 50px !important;
+}
+
+@media screen and (max-width: 720px) {
+  aside,
+  .porto,
+  .experience{
+    width: 100%;
+    margin: 0;
+    padding: 0 80px
+  }
+  body{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 768px) {
+  main{
+    flex: 3 0px;
+  }
+  aside{
+    order: 1;
+  }
+  main{
+    order: 2;
+  }
+  footer{
+    order: 3;
+  }
+}
