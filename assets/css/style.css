@@ -146,10 +146,10 @@ aside{
 #porto-block{
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
   padding: 0;
   margin: 0;
   list-style: none;
+  /* justify-content: space-around; */
 }
 .porto-item{
   color: white;
@@ -192,7 +192,7 @@ footer{
 }
 
 .block{
-  margin: 0px 50px !important;
+  margin: 0px 2% !important;
 }
 
 @media screen and (max-width: 720px) {
