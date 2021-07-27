@@ -1,8 +1,8 @@
-function loadJSON(callback) {   
+function loadJSON(path, callback) {   
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', '../assets/konten.json', true);
+    xobj.open('GET', path, true);
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             callback(xobj.responseText);
@@ -21,7 +21,7 @@ let pos_modal = document.getElementById('modal-block');
 
 // DATA
 function init() {
- loadJSON(function(response) {
+ loadJSON('assets/konten.json', function(response) {
     var kontens = JSON.parse(response);
 	generator(kontens);
 	console.log("See detailed document here: "+'https://drive.google.com/drive/folders/1XOGTcEVauRJMj83c0G1v_ckrnPqcwVDq?usp=sharing');
