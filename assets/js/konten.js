@@ -24,12 +24,30 @@ function init() {
  loadJSON('assets/konten.json', function(response) {
     var kontens = JSON.parse(response);
 	generator(kontens);
+	//customModal();
 	console.log("See detailed document here: "+'https://drive.google.com/drive/folders/1XOGTcEVauRJMj83c0G1v_ckrnPqcwVDq?usp=sharing');
  });
 }
 
 init();
-// GENERATOR
+// GENERATOR MODAL UMUM
+function customModal(){
+	var umum = {
+	}
+	// GET MODAL ELEMENT
+	for(var key in umum) {
+		var modal = modal_template.content.cloneNode(true);;
+		var img     = modal.querySelector('img');
+		var block_m = modal.querySelector('.modal');
+		var judul_m = modal.querySelector('h3');
+		var isi     = modal.querySelector('p');
+		var button  = modal.querySelector('.button');
+		var category= modal.querySelector('#kat');
+	}
+	
+}
+
+// GENERATOR KONTEN
 function generator(kontens){
 	for(var key in kontens) {
 		  var konten = kontens[key];

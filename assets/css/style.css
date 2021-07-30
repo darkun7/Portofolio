@@ -61,10 +61,10 @@ code{
 }
 
 a{color: black;text-decoration: none;}
-a:hover{color: var(--sekunder);}
-
+a:hover{color: var(--primer);}
+nav a:hover{color: var(--sekunder)!important;}
 .center{text-align: center;}
-.top-extra{margin-top: 60px !important;}
+.top-extra{margin-top: 75px !important;}
 .margin-center{margin: 0 auto;}
 .margin-zero{margin: 0;}
 .radius{border-radius: 200px}
@@ -86,6 +86,7 @@ nav{
   width: 100%;
   position: fixed;
   top: 0;
+  z-index:99;
 }
 nav ul{
   list-style: none;
@@ -131,10 +132,14 @@ main{
 aside{
   float: left;
   width: 20%;
-  margin: 0 20px;
+  margin: 10px 20px;
   padding-left: 80px;
+  position:inherit;
+  top: 0;
 }
 .porto,
+.certification,
+.award,
 .experience{
   float: right;
   width: 70%;
@@ -177,6 +182,14 @@ aside{
   padding-top: 25px;
 }
 
+.badge-list{
+  display:flex;
+  flex-wrap:wrap;
+  list-style:none;
+}
+.badge-provider{
+  margin: 0 10px;
+}
 
 
 
@@ -188,7 +201,7 @@ footer{
     color: white;
     text-align: right;
     padding: 20px 0;
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .block{
@@ -198,6 +211,8 @@ footer{
 @media screen and (max-width: 720px) {
   aside,
   .porto,
+  .certification,
+  .award,
   .experience{
     width: 100%;
     margin: 0;
@@ -213,6 +228,7 @@ footer{
   }
   aside{
     order: 1;
+	position:sticky;
   }
   main{
     order: 2;

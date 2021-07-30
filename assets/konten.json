@@ -1,67 +1,110 @@
 {
-    "it-convert":{
-              "judul":"IT-Convert",
-              "gambar":"1OY6bJzBZX8RD8fNc20XGSdlSI1qeftBq",
-              "narasi":"Website lomba ITConvert.id merupakan kompetisi IT dengan skala nasional yang diadakan oleh himpunan mahasiswa sistem informasi (HIMASIF) Universitas Jember.<br> Kontribusi saya dalam proyek ini meliputi front-end programmer, dan deployment melalui cpanel.",
-              "btn_name":"Kunjungi Website",
-              "btn_link":"https://itconvert.id",
-              "kategori":["system", "lomba", "website"]
-            },
-    "naraku":{
-              "judul":"Naraku",
-              "gambar":"1q_3JCGxY-2dm6zuUKy_W6gQ6gL0x2IH1",
-              "narasi":"Website PupukNaraku.com merupakan bentuk pengabdian dari program PKM 2020 yang telah didanai. Layanan dari website ini meliputi pengelolaan pembelian yang nantinya diarahkan pada whatsapp pengelola produksi, dan sistem penunjang keputusan untuk produksi dengan algoritma Simplex. Kontribusi saya dalam proyek ini adalah Fullstack Developer.",
-              "btn_name":"Menuju Website",
-              "btn_link":"https://pupuknaraku.com",
-              "kategori":["pengabdian", "PKM", "website"]
-            },
-    "task-force":{
-              "judul":"Task Force",
-              "gambar":"1Fr5hg8-yun1F8ie8NR8akT97aIhIaoG7",
-              "narasi":"Task Force merupakan website yang dikembangkan untuk membantu mengorganisir pendaftaran lomba, pengumpulan proposal lomba, penjurian karya, hingga pembagian jadwal presentasi.",
-              "btn_name":"Kunjungi webite",
-              "btn_link":"http://taskforce.kulacino.my.id",
-              "kategori":["system", "lomba", "website"]
-            },
-    "journal":{
-              "judul":"OJS Journal",
-              "gambar":"1l_RqUeWqzzbdk0D7O2c2XtcrPEJqmQyo",
-              "narasi":"Beberapa website berbasis OJS yang sedang saya kelolah, berikut salah satu contohnya. Untuk contoh lain dapat dikunjungi pada laman berikut.",
-              "btn_name":"Repositori Laman OJS",
-              "btn_link":"https://github.com/darkun7/ojs-theme",
-              "kategori":["ojs","journal"]
-            },
-    "finding-legends":{
-              "judul":"Finding Legends",
-              "gambar":"180U2ITP-JahuUct1fwefJZt2hipe67um",
-              "narasi":"Permainan Finding Legends: Fact Behind History merupakan edukasi science fiksi mengenai sejarah yang dimuat dalam permainan gawai. Permainan ini diikut sertakan pada kompetisi nasional yang diadakan oleh Kemendikbud yaitu Gemastik XIII. Kontribusi saya dalam pengembangan permainan ini meliputi Team Lead, Game Artist, dan Support Programmer.",
-              "btn_name":"Video Prototype",
-              "btn_link":"https://www.youtube.com/watch?v=CeNCVHNhIdc",
-              "kategori":["edu-game","godot", "sejarah"]
-            },
-    "pahamdna":{
-              "judul":"DNA Assemble",
-              "gambar":"1nC4Sa7bnyOYJlldcT180SdwpoVFRyjLY",
-              "narasi":"DNA Assemble merupakan game edukasi berbasis website dengan konsep simulasi penyusunan basa nukleotida.",
-              "btn_name":"Mainkan Game",
-              "btn_link":"http://paham-dna.kulacino.my.id/",
-              "kategori":["edu-game","godot", "biologi"]
-            },
-	"rsrd-korlantas":{
-              "judul":"RSRD Korlantas Polri",
-              "gambar":"1j2vAZUWmEI1h5PPvvzK--5z888uMuGeI",
-              "narasi":"RSRD Korlantas adalah aplikasi manajemen tugas, meeting dan SSO untuk Polisi Lalu Lintas. Selama pengembangan website ini, saya berperan dalam Backend dan Devops, bertanggung jawab dalam pembuatan aplikasi bersama tim dan konfigurasi server.",
-              "btn_name":"Kunjungi Tautan",
-              "btn_link":"https://rsrd.korlantas-polri.id/",
-              "kategori":["system", "website"]
-            },
-	"covid-care":{
-              "judul":"Covid Care",
-              "gambar":"1EhR2y7O3Czh1YKYQmwrcOuANS11Xcqme",
-              "narasi":"Website layanan covid-19 untuk Universitas Jember. Selama pengembangan website ini, saya berperan dalam Backend dan Devops, bertanggung jawab dalam pembuatan aplikasi bersama tim dan konfigurasi server.",
-              "btn_name":"Kunjungi Tautan",
-              "btn_link":"https://covidcare.id/",
-              "kategori":["system", "website", "covid-19"]
-            }
-
+  "it-convert": {
+    "judul": "IT-Convert",
+    "gambar": "1OY6bJzBZX8RD8fNc20XGSdlSI1qeftBq",
+    "narasi": "Website lomba ITConvert.id merupakan kompetisi IT dengan skala nasional yang diadakan oleh himpunan mahasiswa sistem informasi (HIMASIF) Universitas Jember.<br> Kontribusi saya dalam proyek ini meliputi front-end programmer, dan deployment melalui cpanel.",
+    "btn_name": "Kunjungi Website",
+    "btn_link": "https://itconvert.id",
+    "kategori": [
+      "system",
+      "lomba",
+      "website"
+    ]
+  },
+  "naraku": {
+    "judul": "Naraku",
+    "gambar": "1q_3JCGxY-2dm6zuUKy_W6gQ6gL0x2IH1",
+    "narasi": "Website PupukNaraku.com merupakan bentuk pengabdian dari program PKM 2020 yang telah didanai. Layanan dari website ini meliputi pengelolaan pembelian yang nantinya diarahkan pada whatsapp pengelola produksi, dan sistem penunjang keputusan untuk produksi dengan algoritma Simplex. Kontribusi saya dalam proyek ini adalah Fullstack Developer.",
+    "btn_name": "Menuju Website",
+    "btn_link": "https://pupuknaraku.com",
+    "kategori": [
+      "pengabdian",
+      "PKM",
+      "website"
+    ]
+  },
+  "task-force": {
+    "judul": "Task Force",
+    "gambar": "1Fr5hg8-yun1F8ie8NR8akT97aIhIaoG7",
+    "narasi": "Task Force merupakan website yang dikembangkan untuk membantu mengorganisir pendaftaran lomba, pengumpulan proposal lomba, penjurian karya, hingga pembagian jadwal presentasi.",
+    "btn_name": "Kunjungi webite",
+    "btn_link": "http://taskforce.kulacino.my.id",
+    "kategori": [
+      "system",
+      "lomba",
+      "website"
+    ]
+  },
+  "journal": {
+    "judul": "OJS Journal",
+    "gambar": "1l_RqUeWqzzbdk0D7O2c2XtcrPEJqmQyo",
+    "narasi": "Beberapa website berbasis OJS yang sedang saya kelolah, berikut salah satu contohnya. Untuk contoh lain dapat dikunjungi pada laman berikut.",
+    "btn_name": "Repositori Laman OJS",
+    "btn_link": "https://github.com/darkun7/ojs-theme",
+    "kategori": [
+      "ojs",
+      "journal"
+    ]
+  },
+  "finding-legends": {
+    "judul": "Finding Legends",
+    "gambar": "180U2ITP-JahuUct1fwefJZt2hipe67um",
+    "narasi": "Permainan Finding Legends: Fact Behind History merupakan edukasi science fiksi mengenai sejarah yang dimuat dalam permainan gawai. Permainan ini diikut sertakan pada kompetisi nasional yang diadakan oleh Kemendikbud yaitu Gemastik XIII. Kontribusi saya dalam pengembangan permainan ini meliputi Team Lead, Game Artist, dan Support Programmer.",
+    "btn_name": "Video Prototype",
+    "btn_link": "https://www.youtube.com/watch?v=CeNCVHNhIdc",
+    "kategori": [
+      "edu-game",
+      "godot",
+      "sejarah"
+    ]
+  },
+  "pahamdna": {
+    "judul": "DNA Assemble",
+    "gambar": "1nC4Sa7bnyOYJlldcT180SdwpoVFRyjLY",
+    "narasi": "DNA Assemble merupakan game edukasi berbasis website dengan konsep simulasi penyusunan basa nukleotida.",
+    "btn_name": "Mainkan Game",
+    "btn_link": "http://paham-dna.kulacino.my.id/",
+    "kategori": [
+      "edu-game",
+      "godot",
+      "biologi"
+    ]
+  },
+  "rsrd-korlantas": {
+    "judul": "RSRD Korlantas Polri",
+    "gambar": "1j2vAZUWmEI1h5PPvvzK--5z888uMuGeI",
+    "narasi": "RSRD Korlantas adalah aplikasi manajemen tugas, meeting dan SSO untuk Polisi Lalu Lintas. Selama pengembangan website ini, saya berperan dalam Backend dan Devops, bertanggung jawab dalam pembuatan aplikasi bersama tim dan konfigurasi server.",
+    "btn_name": "Kunjungi Tautan",
+    "btn_link": "https://rsrd.korlantas-polri.id/",
+    "kategori": [
+      "system",
+      "website"
+    ]
+  },
+  "covid-care": {
+    "judul": "Covid Care",
+    "gambar": "1EhR2y7O3Czh1YKYQmwrcOuANS11Xcqme",
+    "narasi": "Website layanan covid-19 untuk Universitas Jember. Selama pengembangan website ini, saya berperan dalam Backend dan Devops, bertanggung jawab dalam pembuatan aplikasi bersama tim dan konfigurasi server.",
+    "btn_name": "Kunjungi Tautan",
+    "btn_link": "https://covidcare.id/",
+    "kategori": [
+      "system",
+      "website",
+      "covid-19"
+    ]
+  },
+  "tokolitik": {
+    "judul": "Tokolitik",
+    "gambar": "1m94kfsdVlksGj0Ip-zZZgUjy5G7uokQf",
+    "narasi": "Aplikasi ini adalah produk tugas akhir dari Bangkit Academy. Tokolitik merupakan aplikasi yang membantu seller untuk meramalkan prediksi penjualan dan penarikan kesimpulan dari ulasan produknya yang dipublikasi di Tokopedia. Dalam pengembangan aplikasi ini, Saya berperan sebagai project lead, analis infrastruktur dan programmer backend",
+    "btn_name": "Video Prototype",
+    "btn_link": "https://youtu.be/DlvLxhG1zus",
+    "kategori": [
+      "Bangkit",
+      "machine learning",
+	  "TensorFlow",
+      "api",
+	  "android"
+    ]
+  }
 }

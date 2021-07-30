@@ -1,8 +1,3 @@
-/* DISCLAIMER */
-/*
-* Style modal dan JS saya menggunakan file yang pernah saya gunakan sebelumnya pada
-* https://github.com/darkun7/darkun7.github.io/blob/master/assets/css/main.css
-*/
 async function delay(delayInms) {
       return new Promise(resolve  => {
         setTimeout(() => {
