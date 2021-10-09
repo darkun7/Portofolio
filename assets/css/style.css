@@ -18,7 +18,7 @@ html, body{
   margin: 0px;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  transition-duration: 3000ms;
+  transition-duration: 2000ms;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -97,7 +97,7 @@ nav ul{
 }
 nav ul li{
   display: inline-block;
-  margin: 0 5%;
+  margin: 0 3%;
 }
 nav ul li a{
   color: var(--sekunder);
@@ -107,6 +107,8 @@ nav ul li a{
   transition: all 1s;
 }
 nav ul li a::after {
+	margin-right:10px;
+	margin-left:10px;
     content: '';
     display: block;
     width: 0;
@@ -188,7 +190,7 @@ aside{
   list-style:none;
 }
 .badge-provider{
-  margin: 0 10px;
+  margin: 5px 10px;
 }
 
 
@@ -220,6 +222,18 @@ footer{
   }
   body{
     font-size: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  aside{
+    margin-top: 40px;
+  }
+  aside,
+  porto,
+  .certification,
+  .award,
+  .experience{
+    padding: 0 80px 0 20px;
   }
 }
 @media screen and (min-width: 768px) {
