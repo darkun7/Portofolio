@@ -223,6 +223,9 @@ footer{
   body{
     font-size: 13px;
   }
+  .porto-item{
+	width: 100% !important;
+  }
 }
 @media screen and (max-width: 320px) {
   aside{
