@@ -1,6 +1,5 @@
 // GRAB TEMPLATE
-// const XLS_API = "https://dbdrive.herokuapp.com/xls"
-const XLS_API = "http://localhost:5000/xls"
+const XLS_API = "https://dbdrive.herokuapp.com/xls"
 
 const months = ["Jan", "Feb", "Mar","Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Des"];
 
@@ -91,7 +90,7 @@ function openBlog(element) {
 
     document.querySelector('.share').id = blogId;
     document.querySelector('.uri').id = 'link-'+blogId;
-    document.querySelector('#link-'+blogId).value = window.location.href.split('?')[0]+"?article="+blogId;
+    document.querySelector('#link-'+blogId).value = WEB_PAGE_URL+"?article="+blogId;
 
     converter = new showdown.Converter()
     document.querySelector('.blog-content').innerHTML = converter.makeHtml(blog['content']);
