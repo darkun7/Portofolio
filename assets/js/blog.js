@@ -1,10 +1,8 @@
 // GRAB TEMPLATE
 const XLS_API = "https://dbdrive.herokuapp.com/xls"
-
 const months = ["Jan", "Feb", "Mar","Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Des"];
 
 let blog_template = document.getElementById('blog-template');
-
 let pos_blog = document.getElementById('blog-block');
 
 // Link Opener

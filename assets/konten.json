@@ -27,7 +27,7 @@
     "judul": "Task Force",
     "gambar": "1Fr5hg8-yun1F8ie8NR8akT97aIhIaoG7",
     "narasi": "Task Force merupakan website yang dikembangkan untuk membantu mengorganisir pendaftaran lomba, pengumpulan proposal lomba, penjurian karya, hingga pembagian jadwal presentasi.",
-    "btn_name": "Kunjungi webite",
+    "btn_name": "Kunjungi Webite",
     "btn_link": "http://taskforce.kulacino.my.id",
     "kategori": [
       "system",
@@ -61,9 +61,9 @@
   "pahamdna": {
     "judul": "DNA Assemble",
     "gambar": "1nC4Sa7bnyOYJlldcT180SdwpoVFRyjLY",
-    "narasi": "DNA Assemble merupakan game edukasi berbasis website dengan konsep simulasi penyusunan basa nukleotida.",
-    "btn_name": "Mainkan Game",
-    "btn_link": "http://paham-dna.kulacino.my.id/",
+    "narasi": "DNA Assemble merupakan game edukasi berbasis website dengan konsep simulasi penyusunan basa nukleotida. Dalam projek ini saya berhasil melanjutkan projek hingga dimuat pada laman projek Alibaba Cloud.",
+    "btn_name": "Kunjungi Laman Berita",
+    "btn_link": "https://www.alibabacloud.com/blog/dna-assemble-genetic-replication-game_597614",
     "kategori": [
       "edu-game",
       "godot",
@@ -85,7 +85,7 @@
     "judul": "Covid Care",
     "gambar": "1EhR2y7O3Czh1YKYQmwrcOuANS11Xcqme",
     "narasi": "Website layanan covid-19 untuk Universitas Jember. Selama pengembangan website ini, saya berperan dalam Backend dan Devops, bertanggung jawab dalam pembuatan aplikasi bersama tim dan konfigurasi server.",
-    "btn_name": "Kunjungi Tautan",
+    "btn_name": "Kunjungi Website",
     "btn_link": "https://covidcare.id/",
     "kategori": [
       "system",
@@ -96,15 +96,67 @@
   "tokolitik": {
     "judul": "Tokolitik",
     "gambar": "1m94kfsdVlksGj0Ip-zZZgUjy5G7uokQf",
-    "narasi": "Aplikasi ini adalah produk tugas akhir dari Bangkit Academy. Tokolitik merupakan aplikasi yang membantu seller untuk meramalkan prediksi penjualan dan penarikan kesimpulan dari ulasan produknya yang dipublikasi di Tokopedia. Dalam pengembangan aplikasi ini, Saya berperan sebagai project lead, analis infrastruktur dan programmer backend",
+    "narasi": "Aplikasi ini adalah produk tugas akhir dari Bangkit Academy. Tokolitik merupakan aplikasi yang membantu seller untuk meramalkan prediksi penjualan dan penarikan kesimpulan dari ulasan produknya yang dipublikasi di Tokopedia. Dalam pengembangan aplikasi ini, Saya berperan sebagai project lead, analis infrastruktur dan programmer backend.",
     "btn_name": "Video Prototype",
     "btn_link": "https://youtu.be/DlvLxhG1zus",
     "kategori": [
       "Bangkit",
       "machine learning",
-	  "TensorFlow",
+      "TensorFlow",
       "api",
-	  "android"
+      "android"
+    ]
+  },
+  "korsa-go": {
+    "judul": "Go API",
+    "gambar": "1etn26TUySEKSVRg8yCNHDMjYSebfpEd9",
+    "narasi": "Aplikasi backend sebagai mini project tentang To Do List yang menerapkan bahasa pemrograman GO, juga kerangka kerja 'Korsa' dari MatchWatch. Selama penyelesaian projek, Saya berkomunikasi langsung dengan Kak Candra Setiadi Wahyu (mentor).",
+    "btn_name": "Repositori Projek",
+    "btn_link": "https://gitlab.com/candrasetiadiwahyu/be-todo",
+    "kategori": [
+      "backend",
+      "api",
+      "Go Language"
+    ]
+  },
+  "klungkung": {
+    "judul": "Pemdes Klungkung",
+    "gambar": "14oDODn5GAsw9hxWgjvv5sodqrkbcO0hC",
+    "narasi": "Laman website ini merupakan projek hibah desa dan sudah didaftarkan paten untuk pemerintahan desa Klungkung Kabupaten Jember. Kontribusi saya dalam projek ini adalah menyediakan boiler plate berbasis Laravel dan Livewire.",
+    "btn_name": "Kunjungi Website",
+    "btn_link": "https://www.pemdesklungkung.id/",
+    "kategori": [
+      "website",
+      "hibah",
+      "bumdes",
+      "laravel boiler plate",
+      "livewire"
+    ]
+  },
+  "tweet-analysis": {
+    "judul": "Senter (Tweet Analysis)",
+    "gambar": "1WDgESfi-H8BKtMeM8egd_VkKvjmDNZGj",
+    "narasi": "Tool machine learning berbasis website yang bisa melakukan sentimen analisis pada tweet dengan memasukkan kata kunci. Kontribusi saya dalam projek ini adalah pembuatan frontend dan deployment projek.",
+    "btn_name": "Kunjungi Website",
+    "btn_link": "https://tweet-senter.herokuapp.com/",
+    "kategori": [
+      "tool",
+      "api",
+      "machine learning",
+      "TensorFlow"
+    ]
+  },
+  "stiker-ops": {
+    "judul": "StikerOps",
+    "gambar": "1IyeaAy4Y8Ay5Oy7MYxVwlM7viZHCgG6I",
+    "narasi": "Aplikasi mobile ini digunakan untuk menambahkan custom stiker whatsapp, projek ini merupakan kolaborasi dengan @CoderMert dari Turki. Kontribusi saya dalam projek ini adalah pembuatan service untuk mendownload gambar dari laman VK.",
+    "btn_name": "Download Aplikasi",
+    "btn_link": "https://drive.google.com/file/d/1Eg1C4iAXyot6XqioSJDEDaxeaC7ZpAtV/view?usp=sharing",
+    "kategori": [
+      "tool",
+      "andrid apps",
+      "whatsapp sticker"
     ]
   }
+  
 }

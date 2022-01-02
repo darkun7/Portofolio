@@ -10,7 +10,7 @@ async function modalClose() {
   var modal = document.getElementsByClassName("modal");
   for(var i=0; i<modal.length; i++) {
       modal[i].style.opacity = 0;
-      modal[i].style.transition = "opacity 0.3s ease-in-out";
+      modal[i].style.transition = "opacity 0.2s ease-in-out";
       let delayres = await delay(150);
       modal[i].style.display = "none";
   }
@@ -18,10 +18,9 @@ async function modalClose() {
 
 async function modalOpen(element) {
   var target = document.getElementById('modal-block').querySelector('#'+element);
-  console.log(target);
   target.style.display = "flex";
   target.style.opacity = 1;
-  target.firstElementChild.style.animation = "bounceIn 0.4s";
-  target.style.transition = "opacity 0.3s ease-in-in";
+  target.firstElementChild.style.animation = "bounceIn 0.2s";
+  target.style.transition = "opacity 0.1s ease-in-in";
   let delayres = await delay(150);
 }

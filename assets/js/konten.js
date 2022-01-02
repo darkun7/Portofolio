@@ -31,7 +31,7 @@ function init() {
 
 init();
 // GENERATOR MODAL UMUM
-function customModal(){
+function customModal() {
 	var umum = {
 	}
 	// GET MODAL ELEMENT
@@ -48,7 +48,7 @@ function customModal(){
 }
 
 // GENERATOR KONTEN
-function generator(kontens){
+function generator(kontens) {
 	for(var key in kontens) {
 		  var konten = kontens[key];
 		  konten['gambar'] = "https://drive.google.com/uc?export=view&id="+konten['gambar'];

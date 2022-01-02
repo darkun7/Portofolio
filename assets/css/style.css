@@ -121,6 +121,9 @@ nav ul li a:hover::after {
 }
 
 /* MAIN */
+main{
+  width: 100%;
+}
 body{
   display: flex;
   flex-flow: row wrap;

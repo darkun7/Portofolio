@@ -1,5 +1,4 @@
 function copyLink(target) {
-    console.log(target)
     var copyText = document.getElementById("link-"+target);
     copyText.style.display = 'block';
     copyText.select();
