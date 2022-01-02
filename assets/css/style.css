@@ -142,7 +142,8 @@ aside{
 .porto,
 .certification,
 .award,
-.experience{
+.experience,
+.blog-area{
   float: right;
   width: 70%;
   margin: 0 1%;
@@ -215,7 +216,8 @@ footer{
   .porto,
   .certification,
   .award,
-  .experience{
+  .experience,
+  .blog-area{
     width: 100%;
     margin: 0;
     padding: 0 80px
@@ -235,7 +237,8 @@ footer{
   porto,
   .certification,
   .award,
-  .experience{
+  .experience,
+  .blog-area{
     padding: 0 80px 0 20px;
   }
 }
