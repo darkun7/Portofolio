@@ -145,6 +145,7 @@ aside{
 .porto,
 .certification,
 .award,
+.publication,
 .experience,
 .blog-area{
   float: right;
@@ -219,6 +220,7 @@ footer{
   .porto,
   .certification,
   .award,
+  .publication,
   .experience,
   .blog-area{
     width: 100%;
@@ -240,6 +242,7 @@ footer{
   porto,
   .certification,
   .award,
+  .publication,
   .experience,
   .blog-area{
     padding: 0 40px 0 20px;
