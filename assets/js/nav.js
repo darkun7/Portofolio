@@ -40,3 +40,18 @@ if (WEB_URL == "https://darkun7.github.io") {
     }
   }
 }
+function toggleMenu() {
+  var nav = document.querySelector('nav');
+  nav.classList.toggle('active');
+}
+document.addEventListener('DOMContentLoaded', function() {
+  var navLinks = document.querySelectorAll('.nav-link');
+  var nav = document.querySelector('nav');
+  navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+          navLinks.forEach(function(e) {
+              nav.classList.remove('active');
+          });
+      });
+  });
+});

@@ -23,20 +23,39 @@
    <body>
       <header id="home">
          <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰ Menu</div>
             <ul>
-               <li><a href="/#portofolio">Portofolio</a></li>
-               <li><a href="/#certification">Sertifikasi</a></li>
-               <li><a href="/#award">Prestasi</a></li>
-               <li><a href="/#experience">Pengalaman</a></li>
+               <li><a class="nav-link" href="#portofolio">Portofolio</a></li>
+               <li><a class="nav-link" href="#certification">Sertifikasi</a></li>
+               <li><a class="nav-link" href="#award">Prestasi</a></li>
+               <li><a class="nav-link" href="#experience">Pengalaman</a></li>
                <li><a href="blog.html">Blog</a></li>
             </ul>
          </nav>
       </header>
       <main>
          <aside>
-            <img class="top-extra margin-center radius" src="assets/images/me.png" alt="My Picture">
+            <div class="top-extra margin-center flip-container">
+               <div class="flipper">
+                  <div class="front">
+                     <img class="radius" data-src="assets/images/me.png" alt="My Picture">
+                  </div>
+                  <div class="back">
+                     <img class="radius" data-src="assets/images/darkun7.gif" alt="My Avatar">
+                  </div>
+               </div>
+            </div>
             <h1 class="center text-xl mt-2">Hartawan Bahari Mulyadi</h1>
-            <p class="center m-0">[<span class="smhan text-2xl">Darkun</span><sup>7</sup>]</p>
+            <div class="margin-center flip-container" style="height:20px;perspective:200px;cursor:pointer;">
+               <div class="flipper">
+                  <div class="front">
+                     <p class="center m-0">[<span class="smhan text-2xl">Darkun</span><sup>7</sup>]</p>
+                  </div>
+                  <div class="back">
+                     <p class="center m-0">[Darkun7]</p>
+                  </div>
+               </div>
+            </div>
             <p class="center">Halo, Saya Mahasiswa 
                <a href="https://its.ac.id/" target="_blank" ref="noopener noreferrer"><code>Informatika, ITS</code></a> Alumni
                <a href="https://unej.ac.id/" target="_blank" ref="noopener noreferrer"><code>Sistem Informasi, Unej</code></a> dan lulusan program 
@@ -269,5 +288,6 @@
       <script type="text/javascript" src="assets/js/nav.js"></script>
       <script type="text/javascript" src="assets/js/konten.js"></script>
       <script type="text/javascript" src="assets/js/modal.js"></script>
+      <script type="text/javascript" src="assets/js/lazyload.js"></script>
    </body>
 </html>

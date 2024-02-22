@@ -47,6 +47,13 @@ function customModal() {
 	
 }
 
+function lazyLoadImage(url, el) {
+	var img = new Image();
+	img.src = url;
+	img.onload = function() {
+	el.style.background = 'url(' + url + ')  center center / cover no-repeat';
+	};
+}
 // GENERATOR KONTEN
 function generator(kontens) {
 	for(var key in kontens) {
@@ -58,10 +65,7 @@ function generator(kontens) {
 		  var action  = porto.querySelector('section');
 		  var judul_p = porto.querySelector('.porto-title');
 		  // SETUP
-		  bg.style.background = "url("+konten['gambar']+")";
-		  bg.style.backgroundPosition = "center";
-		  bg.style.backgroundRepeat = "no-repeat";
-		  bg.style.backgroundSize = "cover";
+		  lazyLoadImage(konten['gambar'],bg)
 		  action.id = key;
 		  judul_p.innerHTML = konten['judul'];
 
