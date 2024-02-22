@@ -11,7 +11,7 @@ async function modalClose() {
   for(var i=0; i<modal.length; i++) {
       modal[i].style.opacity = 0;
       modal[i].style.transition = "opacity 0.2s ease-in-out";
-      let delayres = await delay(150);
+      let delayres = await delay(10);
       modal[i].style.display = "none";
   }
 }

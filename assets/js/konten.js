@@ -51,7 +51,7 @@ function customModal() {
 function generator(kontens) {
 	for(var key in kontens) {
 		  var konten = kontens[key];
-		  konten['gambar'] = "https://drive.google.com/uc?export=view&id="+konten['gambar'];
+		  konten['gambar'] = "https://drive.google.com/thumbnail?id="+konten['gambar'];
 		  // GET PORTO ELEMENT
 		  var porto = porto_template.content.cloneNode(true);
 		  var bg      = porto.querySelector('article');

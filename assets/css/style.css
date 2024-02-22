@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+  font-family: 'exa';
+  src: url('/assets/font/smhanreg.ttf');
+}
 
 /* ==================================== */
 /* GENERIC */
@@ -34,6 +38,15 @@ p{margin-top: 5px;}
 em{
   font-weight: 300;
 }
+.smhan {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  font-family: exa;
+  vertical-align:baseline
+} 
 img{
   max-width: 120px;
   display: block;
@@ -65,7 +78,9 @@ a:hover{color: var(--primer);}
 nav a:hover{color: var(--sekunder)!important;}
 .center{text-align: center;}
 .top-extra{margin-top: 75px !important;}
+
 .margin-center{margin: 0 auto;}
+
 .margin-zero{margin: 0;}
 .radius{border-radius: 200px}
 .icon{font-size: 12px;}
@@ -173,6 +188,7 @@ aside{
   margin: 10px;
   line-height: 150px;
   box-shadow: 0px 5px 5px rgba(72, 84, 96, 0.2), 0 5px 5px rgba(72, 84, 96, 0.2);
+  cursor: pointer;
 }
 .porto-item:hover {
   transition: 0.5s;
@@ -198,7 +214,10 @@ aside{
   margin: 5px 10px;
 }
 
-
+.icon-close {
+  cursor: pointer;
+  user-select: none;
+}
 
 /* ==================================== */
 /* FOOTER */
@@ -262,4 +281,171 @@ footer{
   footer{
     order: 3;
   }
+}
+
+/* Margin */
+.m-0{margin:0} 
+.mx-0{margin-left:0;margin-right:0} 
+.my-0{margin-top:0;margin-bottom:0} 
+.ms-0{margin-inline-start:0} 
+.me-0{margin-inline-end:0} 
+.mt-0{margin-top:0} 
+.mr-0{margin-right:0} 
+.mb-0{margin-bottom:0} 
+.ml-0{margin-left:0} 
+.m-px{margin:1px} 
+.mx-px{margin-left:1px;margin-right:1px} 
+.my-px{margin-top:1px;margin-bottom:1px} 
+.ms-px{margin-inline-start:1px} 
+.me-px{margin-inline-end:1px} 
+.mt-px{margin-top:1px} 
+.mr-px{margin-right:1px} 
+.mb-px{margin-bottom:1px} 
+.ml-px{margin-left:1px}
+.m-1{margin:.25rem} 
+.mx-1{margin-left:.25rem;margin-right:.25rem} 
+.my-1{margin-top:.25rem;margin-bottom:.25rem} 
+.ms-1{margin-inline-start:.25rem} 
+.me-1{margin-inline-end:.25rem} 
+.mt-1{margin-top:.25rem} 
+.mr-1{margin-right:.25rem} 
+.mb-1{margin-bottom:.25rem} 
+.ml-1{margin-left:.25rem}
+.m-2{margin:.5rem} 
+.mx-2{margin-left:.5rem;margin-right:.5rem} 
+.my-2{margin-top:.5rem;margin-bottom:.5rem} 
+.ms-2{margin-inline-start:.5rem} 
+.me-2{margin-inline-end:.5rem} 
+.mt-2{margin-top:.5rem} 
+.mr-2{margin-right:.5rem} 
+.mb-2{margin-bottom:.5rem} 
+.ml-2{margin-left:.5rem} 
+.m-3{margin:.75rem} 
+.mx-3{margin-left:.75rem;margin-right:.75rem} 
+.my-3{margin-top:.75rem;margin-bottom:.75rem} 
+.ms-3{margin-inline-start:.75rem} 
+.me-3{margin-inline-end:.75rem} 
+.mt-3{margin-top:.75rem} 
+.mr-3{margin-right:.75rem} 
+.mb-3{margin-bottom:.75rem} 
+.ml-3{margin-left:.75rem}
+.m-4{margin:1rem} 
+.mx-4{margin-left:1rem;margin-right:1rem} 
+.my-4{margin-top:1rem;margin-bottom:1rem} 
+.ms-4{margin-inline-start:1rem} 
+.me-4{margin-inline-end:1rem} 
+.mt-4{margin-top:1rem} 
+.mr-4{margin-right:1rem} 
+.mb-4{margin-bottom:1rem} 
+.ml-4{margin-left:1rem} 
+.m-5{margin:1.25rem} 
+.mx-5{margin-left:1.25rem;margin-right:1.25rem} 
+.my-5{margin-top:1.25rem;margin-bottom:1.25rem} 
+.ms-5{margin-inline-start:1.25rem} 
+.me-5{margin-inline-end:1.25rem} 
+.mt-5{margin-top:1.25rem} 
+.mr-5{margin-right:1.25rem} 
+.mb-5{margin-bottom:1.25rem} 
+.ml-5{margin-left:1.25rem} 
+.m-6{margin:1.5rem} 
+.mx-6{margin-left:1.5rem;margin-right:1.5rem} 
+.my-6{margin-top:1.5rem;margin-bottom:1.5rem} 
+.ms-6{margin-inline-start:1.5rem} 
+.me-6{margin-inline-end:1.5rem} 
+.mt-6{margin-top:1.5rem} 
+.mr-6{margin-right:1.5rem} 
+.mb-6{margin-bottom:1.5rem} 
+.ml-6{margin-left:1.5rem} 
+.m-7{margin:1.75rem} 
+.mx-7{margin-left:1.75rem;margin-right:1.75rem} 
+.my-7{margin-top:1.75rem;margin-bottom:1.75rem} 
+.ms-7{margin-inline-start:1.75rem} 
+.me-7{margin-inline-end:1.75rem} 
+.mt-7{margin-top:1.75rem} 
+.mr-7{margin-right:1.75rem} 
+.mb-7{margin-bottom:1.75rem} 
+.ml-7{margin-left:1.75rem} 
+.m-8{margin:2rem} 
+.mx-8{margin-left:2rem;margin-right:2rem} 
+.my-8{margin-top:2rem;margin-bottom:2rem} 
+.ms-8{margin-inline-start:2rem} 
+.me-8{margin-inline-end:2rem} 
+.mt-8{margin-top:2rem} 
+.mr-8{margin-right:2rem} 
+.mb-8{margin-bottom:2rem} 
+.ml-8{margin-left:2rem} 
+.m-9{margin:2.25rem} 
+.mx-9{margin-left:2.25rem;margin-right:2.25rem} 
+.my-9{margin-top:2.25rem;margin-bottom:2.25rem} 
+.ms-9{margin-inline-start:2.25rem} 
+.me-9{margin-inline-end:2.25rem} 
+.mt-9{margin-top:2.25rem} 
+.mr-9{margin-right:2.25rem} 
+.mb-9{margin-bottom:2.25rem} 
+.ml-9{margin-left:2.25rem} 
+.m-10{margin:2.5rem} 
+.mx-10{margin-left:2.5rem;margin-right:2.5rem} 
+.my-10{margin-top:2.5rem;margin-bottom:2.5rem} 
+.ms-10{margin-inline-start:2.5rem} 
+.me-10{margin-inline-end:2.5rem} 
+.mt-10{margin-top:2.5rem} 
+.mr-10{margin-right:2.5rem} 
+.mb-10{margin-bottom:2.5rem} 
+.ml-10{margin-left:2.5rem} 
+.m-11{margin:2.75rem} 
+.mx-11{margin-left:2.75rem;margin-right:2.75rem} 
+.my-11{margin-top:2.75rem;margin-bottom:2.75rem} 
+.ms-11{margin-inline-start:2.75rem} 
+.me-11{margin-inline-end:2.75rem} 
+.mt-11{margin-top:2.75rem} 
+.mr-11{margin-right:2.75rem} 
+.mb-11{margin-bottom:2.75rem} 
+.ml-11{margin-left:2.75rem} 
+.m-12{margin:3rem} 
+.mx-12{margin-left:3rem;margin-right:3rem} 
+.my-12{margin-top:3rem;margin-bottom:3rem} 
+.ms-12{margin-inline-start:3rem} 
+.me-12{margin-inline-end:3rem} 
+.mt-12{margin-top:3rem} 
+.mr-12{margin-right:3rem} 
+.mb-12{margin-bottom:3rem} 
+.ml-12{margin-left:3rem} 
+.m-auto{margin:auto} 
+.mx-auto{margin-left:auto;margin-right:auto} 
+.my-auto{margin-top:auto;margin-bottom:auto} 
+.ms-auto{margin-inline-start:auto} 
+.me-auto{margin-inline-end:auto} 
+.mt-auto{margin-top:auto} 
+.mr-auto{margin-right:auto} 
+.mb-auto{margin-bottom:auto} 
+.ml-auto{margin-left:auto}
+
+/* Font */
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
 }
